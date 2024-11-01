@@ -16,6 +16,6 @@ jobs:
       - name: Trigger jenkins job
         uses: joshlk/jenkins-githubaction@master
         with:
-          url: http://34.148.62.57:8080
+          url: ${{ secrets.JENKINS_CI_URL }}
           job_name: pipeline1
           timeout: "1000"

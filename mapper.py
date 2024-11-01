@@ -7,5 +7,4 @@ for line in sys.stdin:
     words = line.split()  # Split the line into words
 
     for word in words:
-        # Write the result to standard output (STDOUT)
-        print('%s\t%s' % (word, 1))  # Emit the word followed by a count of 1
+        print(f"{word}\t1")

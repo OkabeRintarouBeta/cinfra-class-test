@@ -3,8 +3,8 @@ import sys
 
 # Word Count Example
 for line in sys.stdin:
-    line = line.strip()  # Remove leading and trailing whitespaces
-    words = line.split()  # Split the line into words
+    line = line.strip()  
+    words = line.split()  
 
     for word in words:
         print(f"{word}\t1")

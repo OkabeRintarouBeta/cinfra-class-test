@@ -8,3 +8,5 @@ for line in sys.stdin:
 
     for word in words:
         print(f"{word}\t1")
+
+        
